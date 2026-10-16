@@ -1,0 +1,6 @@
+{
+  "name": "文化祭 2026 - 3年B組 伝説のチーズボール特設フェス",
+  "description": "文化祭を最高に熱くする3年B組チーズボール公式ポータル！テーマソングプレイヤー（歌詞シンク＆歓声）、爆速フライヤー調理シミュレーター、リアルタイム整理券キオスク、黒板メッセージボード搭載。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

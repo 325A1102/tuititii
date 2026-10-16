@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', 'M PLUS Rounded 1c', sans-serif;
+    background-color: #0d1117;
+    color: #f1f5f9;
+    overflow-x: hidden;
+  }
+}
+
+.font-rounded {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.font-brush {
+  font-family: 'Yuji Boku', cursive, sans-serif;
+}
+
+/* Blackboard chalk styling */
+.chalk-board {
+  background-color: #1a2e26;
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.05) 0%, transparent 80%),
+    linear-gradient(rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.6);
+}
+
+.chalk-text {
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.8), 0 0 8px rgba(255, 255, 255, 0.4);
+}
+
+.gold-glow {
+  box-shadow: 0 0 35px rgba(245, 158, 11, 0.35);
+}
+
+@keyframes bounceSlow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-bounce-slow {
+  animation: bounceSlow 3s ease-in-out infinite;
+}
+
